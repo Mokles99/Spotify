@@ -12,7 +12,6 @@
   import Aos from "aos";
   import "aos/dist/aos.css";
 
-  // ... (autres imports)
 
 const Home: React.FC = () => {
   useEffect(() => {
