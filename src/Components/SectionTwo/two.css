@@ -1,0 +1,146 @@
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center;
+    }
+    .cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Centrer les cartes horizontalement */
+        gap: 2px; /* Espace entre les cartes */
+    }
+
+    .payment-icons {
+        display: flex;
+        gap: 10px; 
+        margin-bottom: 20px; 
+    }
+
+    .payment-icons span {
+        font-size: 24px; 
+    }
+
+    .spotify-card {
+        border: 1px solid #eee;
+        padding: 15px;
+        margin: 15px;
+        display: inline-flex;
+        vertical-align: top;
+        width: 250px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .spotify-card {
+        text-align:left;
+    }
+    
+
+
+
+    .spotify-card {
+        border: 1px solid #eee;
+        padding: 15px;
+        margin: 15px;
+        display: inline-block;
+        border-radius: 20px;
+        vertical-align: top;
+        width: 250px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+
+
+    }
+
+    .part-1, .part-2, .part-3 {
+        padding: 10px 0;
+            text-align: left;
+        
+        
+    }
+
+    button {
+        background-color: #1d47b9; 
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #189442; 
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    hr {
+        margin: 10px 0;
+    }
+
+
+    .discount-banner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: white;
+        border-radius: 30px;
+        padding: 20px;
+        width: 70%; 
+        margin-top: 30px;
+        box-shadow: 0 4px 6px rgb(0 0 0 / 68%); 
+    }
+    
+    .discount-banner p {
+        color: black;
+        margin: 0;
+    }
+    
+    .transparent-btn {
+        background-color: transparent;
+        border: 1px solid black;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .transparent-btn:hover {
+        background-color: black;
+        color: white;
+    }
+    .transparent-btn-blue {
+        background-color: transparent;
+        border: 1px solid #1d47b9; /* blue */
+        color: #1d47b9; /* blue */
+        padding: 10px 15px;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-bottom: 10px; /* To space between buttons */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .transparent-btn-blue:hover {
+        background-color: #1d47b9; /* blue */
+        color: white;
+    }
+    
+    button, .transparent-btn, .transparent-btn-blue {
+        display: block;
+        margin: 5px 0; 
+        border-radius: 15px;
+        width: Hug (98.08px);
+height: Hug (26px);
+padding: 5px 11.078125px 6px 8px;
+border-radius: 4px;
+
+    }
+

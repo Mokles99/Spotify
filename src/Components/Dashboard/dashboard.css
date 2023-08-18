@@ -1,0 +1,29 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    padding-top: 12vh;
+}
+
+.sidebar {
+    width: 241px;
+    height: 832.21875px;
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+}
+
+.menu > li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.playlists div, .episodes {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
